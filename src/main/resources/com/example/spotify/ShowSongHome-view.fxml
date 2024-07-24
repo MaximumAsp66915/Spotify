@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="SongHomeMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#openSong" prefHeight="178.0" prefWidth="120.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spotify.Controller.ShowSongsHomeController">
+   <children>
+      <ImageView fx:id="SongImage" fitHeight="160.0" fitWidth="120.0" preserveRatio="true" styleClass="image">
+         <image>
+            <Image url="@image/Save your tears.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="SongLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="120.0" text="The Weeknd">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
